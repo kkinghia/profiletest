@@ -1,0 +1,51 @@
+@import url(main.css);
+section {
+    box-shadow: 10px 10px 20px rgba(0,0,0,0.1);
+}
+/* 프로필 */
+.back-btn {
+    font-size: 14px;
+    color: #555;
+    cursor: pointer;
+    display: block;
+    margin: 20px;
+}
+.back-btn:hover {
+    text-decoration: underline;
+}
+.ditail-profile {
+    text-align: center;
+}
+.ditail-profile h1 {
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.ditail-profile p {
+    font-size: 20px;
+    color: #888;
+}
+.ditail-profile img {
+    width: 120px;
+    border-radius: 50%;
+}
+/* 카드박스 */
+.ditail-box {
+    margin-bottom: 20px;
+}
+.ditail-box h2{
+    font-size: 16px;
+    margin-bottom: 10px;
+    border-left: 4px solid #7892fc;
+    padding-left: 10px;
+}
+li{
+    list-style: disc;
+}
+ul{
+    padding-left: 25px;
+}
+.ditail-box p, .ditail-box li{
+    font-size: 13px;
+    color: #555;
+    line-height: 1.6;
+}
