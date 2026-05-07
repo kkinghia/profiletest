@@ -1,6 +1,6 @@
 @import url(main.css);
 section {
-    box-shadow: 10px 10px 20px rgba(0,0,0,0.1);
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.1);
 }
 /* 프로필 */
 .back-btn {
@@ -24,28 +24,44 @@ section {
     font-size: 20px;
     color: #888;
 }
-.ditail-profile img {
-    width: 120px;
+.deta-img {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
     border-radius: 50%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: auto;
 }
+.deta-img img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: 0.3s;
+    text-align: center;
+}
+
 /* 카드박스 */
 .ditail-box {
     margin-bottom: 20px;
 }
-.ditail-box h2{
+.ditail-box h2 {
     font-size: 16px;
     margin-bottom: 10px;
-    border-left: 4px solid #7892fc;
+    border-left: 4px solid #660000;
     padding-left: 10px;
 }
-li{
+li {
     list-style: disc;
 }
-ul{
+ul {
     padding-left: 25px;
 }
-.ditail-box p, .ditail-box li{
+.ditail-box p,
+.ditail-box li {
     font-size: 13px;
     color: #555;
     line-height: 1.6;
+    padding-top: 10px;
 }

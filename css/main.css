@@ -39,19 +39,24 @@ section {
     flex-direction: column;
     align-items: center;
     gap: 20px;
-    padding: 40px 0;
+    padding: 20px 0;
     text-align: center;
 }
 .pro-img {
-    width: 350px;
-    height: 350px;
+    width: 200px;
+    height: 200px;
     overflow: hidden;
     border-radius: 50%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
 }
 .pro-img img {
     width: 100%;
+    height: auto;
     display: block;
     transition: 0.3s;
+    text-align: center;
 }
 .pro-img:hover img {
     transform: scale(1.1);
@@ -60,7 +65,6 @@ section {
 .pro-name {
     font-family: "Orbitron", sans-serif;
     padding: 15px 0;
-    
 }
 .pro-name h1 {
     font-size: 25px;
@@ -72,26 +76,30 @@ section {
     color: #999;
 }
 .btn-view {
-  color: #fff;
-  padding: 8px 20px;
-  border-radius: 24px;
-  background: linear-gradient(45deg, #10fcf0, #7592fc);
-  box-shadow: 5px 5px 20px rgba(0, 255, 255, 0.5);
+    color: #fff;
+    padding: 8px 20px;
+    border-radius: 24px;
+    background: linear-gradient(45deg, #10fcf0, #7592fc);
+    box-shadow: 5px 5px 20px rgba(0, 255, 255, 0.5);
 }
 body.member2 .profile-img {
-  box-shadow: 5px 5px 30px rgba(173, 230, 185, 0.8);
+    box-shadow: 5px 5px 30px rgba(173, 230, 185, 0.8);
 }
 body.member2 .btn-view {
-  background: linear-gradient(45deg, #89ee91, #04e8cd);
-  box-shadow: 5px 5px 20px rgba(0, 255, 255, 0.5);
+    background: linear-gradient(45deg, #89ee91, #04e8cd);
+    box-shadow: 5px 5px 20px rgba(0, 255, 255, 0.5);
 }
 .profile ul {
     font-family: "Orbitron", sans-serif;
     padding: 15px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .profile ul li {
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 20px;
     padding: 10px 0;
     border-bottom: 1px solid #d2d1d1;
@@ -122,29 +130,46 @@ body.member2 .btn-view {
     display: flex;
     gap: 30px;
     justify-content: center;
-    padding: 30px 0;
 }
 .last a {
     width: 40px;
     height: 40px;
     border-radius: 50%;
     background-color: antiquewhite;
-    opacity: 0.1;
     filter: saturate(0.7);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
 .last a:nth-of-type(1) {
-    background-color: rgb(255, 186, 96);
+    background-color: #0a0a0a;
+    color: #000;
+    opacity: 0.1;
 }
 .last a:nth-of-type(2) {
-    background-color: blueviolet;
+    background-color: #c2a378;
+    color: #000;
+    opacity: 0.1;
 }
 .last a:nth-of-type(3) {
-    background-color: aqua;
+    background-color: #7a2bff;
+    color: #000;
+    opacity: 0.1;
 }
 .last a:nth-of-type(4) {
-    background-color: brown;
+    background-color: #8b0000;
+    color: #000;
+    opacity: 0.1;
 }
 .last a.on {
     opacity: 1;
     filter: saturate(1);
+    color: #fff;
+}
+.last a:hover {
+    transform: scale(1.1);
+    opacity: 1;
+    color: #fff;
 }
