@@ -15,10 +15,12 @@ section {
 }
 .ditail-profile {
     text-align: center;
+    margin: 30px 0;
 }
 .ditail-profile h1 {
     font-size: 20px;
     text-transform: uppercase;
+    margin-top: 10px;
 }
 .ditail-profile p {
     font-size: 20px;
@@ -48,7 +50,6 @@ section {
 }
 .ditail-box h2 {
     font-size: 16px;
-    margin-bottom: 10px;
     border-left: 4px solid #660000;
     padding-left: 10px;
 }
